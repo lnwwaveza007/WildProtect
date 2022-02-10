@@ -1,0 +1,12 @@
+name: Wildprotect
+version: '${project.version}'
+main: mineplugin.wildprotect.Wildprotect
+api-version: 1.16
+authors: [ Mineplugin ]
+description: Made for Nontawat Matong (Facebook)
+website: https://www.facebook.com/MinepluginAdmin
+depend: [WorldGuard , ProtectionStones]
+commands:
+  wildprotect:
+    description: Use wildprotect's commands
+    usage: /<command>
